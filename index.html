@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>My Google</title>
         <style>
+            body {
+                font-family: arial, sans-serif;
+            }
             #google-logo {
                 display: block;
                 margin: auto;
@@ -12,8 +16,10 @@
                 margin: auto;
                 border-radius: 25px;
                 margin-top: 3vh;
-                width: 25vw;
+                width: 28vw;
                 height: 34px;
+                border-style: solid;
+                padding-left: 10px;
             }
             nav ul {
                 list-style-type: none;
@@ -25,17 +31,26 @@
                 top: 0;
                 left: 0;
                 width: 100%;
+                font-size: 13px;
+                padding: 15px;
             }
             nav li {
                 display: inline;
                 margin-right: 20px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #000;
+            }
+            nav a:hover {
+                text-decoration: underline;
             }
         </style>
     </head>
     <body>
         <nav id="navbar">
             <ul>
-                <li><a href="">About</a></li>
+                <li><a href="doogle.com">About</a></li>
                 <li><a href="">Store</a></li>
                 <li style="float: right;"><a href="">Gmail</a></li>
                 <li style="float: right;"><a href="">Images</a></li>
