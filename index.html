@@ -5,10 +5,44 @@
             #google-logo {
                 display: block;
                 margin: auto;
+                padding-top: 20vh;
+            }
+            #search-bar {
+                display: block;
+                margin: auto;
+                border-radius: 25px;
+                margin-top: 3vh;
+                width: 25vw;
+                height: 34px;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            #navbar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+            nav li {
+                display: inline;
+                margin-right: 20px;
             }
         </style>
     </head>
     <body>
+        <nav id="navbar">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+                <li style="float: right;"><a href="">Gmail</a></li>
+                <li style="float: right;"><a href="">Images</a></li>
+            </ul>
+        </nav>
         <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></img>
+        <input id="search-bar" type="text" placeholder="&#x1F50D;"></input>
+        
     </body>
 </html>
