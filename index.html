@@ -45,6 +45,27 @@
             nav a:hover {
                 text-decoration: underline;
             }
+            #sign-in {
+                padding: 9px 23px 9px 23px;
+                font-size: 14px;
+                margin-top: -5px;
+                background-color: #1a73e8;
+                color: white;
+                border-radius: 4px;
+                border-style: none;
+            }
+            #apps-button {
+                float: right;
+            }
+            #apps-button:hover {
+                width: 40px;
+                height: 40px;
+                background-color: rgb(226, 226, 226);
+                border-radius: 50%;
+                box-sizing: border-box;
+                white-space: nowrap;
+                padding: 8px;
+            }
         </style>
     </head>
     <body>
@@ -52,8 +73,10 @@
             <ul>
                 <li><a href="doogle.com">About</a></li>
                 <li><a href="">Store</a></li>
-                <li style="float: right;"><a href="">Gmail</a></li>
-                <li style="float: right;"><a href="">Images</a></li>
+                <li style="float: right"><button id="sign-in" type="Sign in">Sign In</button></li>
+                <li id="apps-button"><svg style="width: 24px; height: 24px;" focusable="false"><path fill=#5f6368 d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg></li>
+                <li style="float: right; padding-top: 5px;"><a href="">Images</a></li>
+                <li style="float: right; padding-top: 5px;"><a href="">Gmail</a></li>
             </ul>
         </nav>
         <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></img>
