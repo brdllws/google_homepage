@@ -23,7 +23,7 @@
                 padding-left: 10px;
                 background: #fff;
             }
-            nav ul {
+            nav ul, footer ul {
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
@@ -90,6 +90,25 @@
                 border: 1px solid #dadce0;
                 color: #202124;
             }
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                height: 40px;
+                width: 100%;
+                background-color: #f2f2f2;
+                padding-top: 10px;
+                margin-bottom: -10px;
+            }
+            footer li {
+                display: inline;
+                margin-left: 27px;
+                font-size: 14px;
+                color: #5f6368;
+            }
+            .footer-right {
+                float: right;
+            }
         </style>
     </head>
     <body>
@@ -109,5 +128,15 @@
             <button id="google-search" type="Google Search">Google Search</button>
             <button id="feeling-lucky" type="I'm Feeling Lucky">I'm Feeling Lucky</button>
         </div>
+        <footer>
+            <ul>
+                <li style="margin-top: 15px;">Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+                <li style="margin-right: 27px;" class="footer-right">Settings</li>
+                <li class="footer-right">Terms</li>
+                <li class="footer-right">Privacy</li>                
+            </ul>
+        </footer>
     </body>
 </html>
